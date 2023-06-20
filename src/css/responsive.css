@@ -83,6 +83,7 @@
     }
 
     .humanizing .title {
+        width: 320px;
         padding-top: 40px;
     }
 
@@ -124,6 +125,10 @@
         display: none;
     }
 
+    .humanizing .description{
+        width: 320px;
+    }
+
     .different h2 {
         text-align: center;
     }
@@ -139,10 +144,11 @@
         background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
     }
 
     .find-out h2 {
+        font-size: 24px;
         margin-bottom: 20px;
     }
 
