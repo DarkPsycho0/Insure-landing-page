@@ -16,6 +16,11 @@
     width: 100%;
 }
 
+.header i{
+    display: none;
+    font-size: 32px;
+}
+
 .header nav {
     width: 40%;
 }

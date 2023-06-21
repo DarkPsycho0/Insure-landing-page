@@ -121,7 +121,40 @@
 }
 
 @media(max-width:425px) {
-    .menu {
+    .header i {
+        display: flex;
+    }
+
+    .header nav {
+        background-color: hsl(256, 26%, 20%);
+        position: absolute;
+        z-index: 1;
+        top: 152px;
+        left: 0;
+        height: 350px;
+        width: 100%;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        align-items: center;
+        height: 100%;
+        gap: 40px;
+    }
+
+    .menu li {
+        color: hsl(0, 0%, 98%);
+    }
+
+    .menu li:last-child a {
+        border: 2px solid hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 98%);
+    }
+
+    .header nav.none{
         display: none;
     }
 
